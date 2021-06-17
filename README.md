@@ -11,9 +11,15 @@
 将刚才设置的FAT32分区挂在到/cdrom目录就可以继续安装了
 
 参考命令：
+
 安装介质都是使用FAT32格式
+
 mount /dev/sdb3 /cdrom
+
 mount -t vfat /dev/sdb3 /cdrom
+
 mount -t ntfs /dev/sdb3 /cdrom
+
 mount -t ext4 /dev/sdb3 /cdrom
+
 umount /cdrom
