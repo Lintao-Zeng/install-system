@@ -12,9 +12,9 @@
 
 接着使用grub的回放技术将iso镜像文件挂在到loop，参考：https://blog.csdn.net/qq_42748849/article/details/81273703
 
-接下来会进入Linux的安装引导界面，某些Linux安装程序会提示找不到安装介质，不用慌，我们进入shell命令行
+接下来会进入Linux的安装引导界面，某些Linux安装程序会提示找不到安装介质，不用慌，进入shell命令行
 
-将刚才设置的FAT32分区挂在到/cdrom目录就可以继续安装了
+将刚才设置的FAT32分区挂载到/cdrom目录就可以继续安装了
 
 参考命令：
 
