@@ -10,7 +10,7 @@
 
 做完之后重启进入grub启动器，按c进入命令行，输入ls查看所有磁盘分区，ls (hdx,y)/命令可以查看分区详情
 
-接着使用grub的回放技术将iso镜像文件挂在到loop，参考：https://blog.csdn.net/qq_42748849/article/details/81273703
+接着使用grub的回放技术将iso镜像文件挂载到loop，参考：https://blog.csdn.net/qq_42748849/article/details/81273703
 
 接下来会进入Linux的安装引导界面，某些Linux安装程序会提示找不到安装介质，不用慌，进入shell命令行
 
